@@ -1,4 +1,4 @@
-# U6S3 - Constructors
+# U7S3 - Constructors
 
 * Part A - Foundations 7.3
 * Part B - Foundations Practice
