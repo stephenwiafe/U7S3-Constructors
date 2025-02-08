@@ -13,8 +13,7 @@ public class AlgoChallenge {
      */
 
     public static Integer doubleTheSum(int a, int b) {
-
-        return null;
+        return (a == b) ? 2 * (a + b) : (a + b);
     }
 
 
@@ -29,8 +28,16 @@ public class AlgoChallenge {
      */
 
     public static Boolean lookOut10(int a, int b) {
-
-        return null;
+        return (a == 10 || b == 10 || (a + b) == 10);
     }
 
+    public static void main(String[] args) {
+        System.out.println(AlgoChallenge.doubleTheSum(1, 2));
+        System.out.println(AlgoChallenge.doubleTheSum(3, 2));
+        System.out.println(AlgoChallenge.doubleTheSum(2, 2));
+
+        System.out.println(AlgoChallenge.lookOut10(9, 10));
+        System.out.println(AlgoChallenge.lookOut10(9, 9));
+        System.out.println(AlgoChallenge.lookOut10(1, 9));
+    }
 }

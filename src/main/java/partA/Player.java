@@ -8,6 +8,11 @@ public class Player {
     public int yearsInLeague;
 
     //Constructor
+    public Player(String name, double height, int yearsInLeague) {
+        this.name = name;
+        this.height = height;
+        this.yearsInLeague = yearsInLeague;
+    }
 
 
     //Methods

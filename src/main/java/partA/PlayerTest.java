@@ -7,7 +7,8 @@ public class PlayerTest {
         /**
          * Your code goes here
          */
-
+        Player player1 = new Player("Curry",6.2,13);
+        response = player1.name + "\n" + player1.height + "\n" + player1.yearsInLeague;
 
         return response;
     }
